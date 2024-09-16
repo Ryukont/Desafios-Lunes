@@ -1,15 +1,10 @@
-let nombre = "Pedro"
+let Nombre_producto = "Procesadores Ryzen "
+let Precio_Unitario = "200000"
 
-let apellido = "Castellano"
+let cantidad_deseada = prompt("Cual es la cantidad de procesadores que desea comprar")
 
-let edad = prompt("ingrese su edad")
+console.log("Cantidad =",cantidad_deseada)
 
-nombre = "Pablo"
-apellido = "Alvarez"
+Valor_total = (Precio_Unitario * cantidad_deseada)
 
-console.log(nombre,apellido)
-console.log("tu edad es",edad)
-alert("tu edad es " + edad)
-
-
-console.log(`${nombre} ${apellido} \ntu edad es: ${edad}`)
+alert("El total de su compra seria: "+ Valor_total)
