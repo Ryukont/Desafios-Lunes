@@ -1,7 +1,7 @@
 let Nombre_producto = "Procesadores Ryzen "
 let Precio_Unitario = "200000"
 
-let cantidad_deseada = prompt("Cual es la cantidad de procesadores que desea comprar")
+let cantidad_deseada = prompt("Cual es la cantidad de procesadores Ryzen desea comprar")
 
 console.log("Cantidad =",cantidad_deseada)
 
